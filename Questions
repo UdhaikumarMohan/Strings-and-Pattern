@@ -1,0 +1,5 @@
+Reverse a string
+Input a sentence from the user. Convert it to sentence case (Capitalize first letter of every word)
+Input a sentence and reverse every word in the sentence
+Input a sentence and eliminate all the vowels contained in it
+Display a list of strings that can be created using the vowels a,e,i,o,u. (Do not repeat same character in a word)
