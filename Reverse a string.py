@@ -1,23 +1,14 @@
 # Reverse the given string in python:
 
-def rev_string(String):
+def reverse(String): 
+  str = "" 
+  for i in String: 
+    str = i + str
+  return str
 
-    length = len(String)
-
-    if(length%2==0):
-
-        x = (length/2)+1
-
-    x = (length//2)
-
-    for a in range(0,x):
-
-        temp = String[a]
-        String.replace(String[a],String[(length-1)-a])
-        String.replace(String[(length-1)-a],temp)
-
-    return String
+    
 
 String = "Udhaikumar"
 
-print(rev_string(String))
+print("The reversed string is: ",end=":")
+print(reverse(String))
