@@ -20,5 +20,5 @@ def most_char(String):
 
             print(i)
 
-String = "udhaikumar"
+String = input(str("Enter the Input: "))
 most_char(String)
