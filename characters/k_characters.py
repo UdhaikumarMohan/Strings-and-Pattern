@@ -14,12 +14,16 @@ def k_char(String,k):
 
             freq[a]=1
 
+    k_char=[]
+
     for i in freq:
 
-        if freq[i]>k:
+        if freq[i]>=k:
 
-            print(i)
+            k_char.append(i)
+    
+    return k_char
 
-String = str(input("Enter the String: "))
-k= int(input("Enter the K value: "))
-k_char(String,k)
+#String = str(input("Enter the String: "))
+#k= int(input("Enter the K value: "))
+#print(k_char(String,k))

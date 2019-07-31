@@ -14,11 +14,19 @@ def most_char(String):
 
             freq[a]=1
 
+        if " " in freq:
+
+            del freq[" "]
+
+    most_occur=[]
+
     for i in freq:
 
         if freq[i]>1:
 
-            print(i)
+            most_occur.append(i)
 
-String = input(str("Enter the Input: "))
-most_char(String)
+    return most_occur
+
+#String = input(str("Enter the Input: "))
+#print(most_char(String))

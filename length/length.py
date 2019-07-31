@@ -10,7 +10,7 @@ def Length(String):
 
     return count
 
-String = 'Udhaikumar'
+String = '!   ! '
 
 print('The length of the given string is:',end = "")
 
