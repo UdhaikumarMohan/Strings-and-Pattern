@@ -16,5 +16,5 @@ def freq_char(String):
 
     return freq
 
-String = "udhaikumar"
-print(freq_char(String))
+#String = "udhaikumar"
+#print(freq_char(String))
