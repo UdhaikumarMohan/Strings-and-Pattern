@@ -28,5 +28,5 @@ def most_char(String):
 
     return most_occur
 
-#String = input(str("Enter the Input: "))
-#print(most_char(String))
+String = input(str("Enter the Input: "))
+print(most_char(String))

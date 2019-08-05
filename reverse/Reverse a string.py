@@ -2,8 +2,8 @@
 
 def reverse(String): 
   str = "" 
-  for i in String: 
-    str = i + str
+  for a in String: 
+    str = a + str
   return str
 
     
